@@ -56,7 +56,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: '',
-            image: 'https://i.ibb.co/rGTFZkyr/MEF-AAP-027-BAP-2025-05-22-13-53-45.png',
+            image: 'https://i.ibb.co/vC7G7HPp/11.png',
             description: '',
             location: {
                 center: [29.048957018415035,41.16311524230927],
@@ -86,7 +86,7 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: '',
-            image: 'https://i.ibb.co/ccTYKXPy/MEF-AAP-027-BAP-2025-05-22-13-54-34.png',
+            image: 'https://i.ibb.co/q3Yy1cLF/22.png',
             description: '',
             location: {
                 center: [29.048957018415035,41.16311524230927],
@@ -95,7 +95,7 @@ var config = {
                 bearing: 0
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: false,
+            rotateAnimation: true,
             callback: '',
             onChapterEnter: [
                 // {
@@ -116,7 +116,7 @@ var config = {
             alignment: 'centered',
             hidden: false,
             title: '',
-            image: 'https://i.ibb.co/m5Xpr038/MEF-AAP-027-BAP-2025-05-22-13-55-01.png',
+            image: 'https://i.ibb.co/NdXy2M06/33.png',
             description: '',
             location: {
                 center: [29.048957018415035,41.16311524230927],
@@ -125,7 +125,7 @@ var config = {
                 bearing: 0
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: false,
+            rotateAnimation: true,
             callback: '',
             onChapterEnter: [
                 // {
