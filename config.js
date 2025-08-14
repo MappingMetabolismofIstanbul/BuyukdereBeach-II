@@ -1,3 +1,4 @@
+
 var config = {
     // style: 'mapbox://styles/mapbox/streets-v12',
     // leave commented to use Mapbox Standard Style
@@ -16,10 +17,10 @@ var config = {
     theme: 'light',
     use3dTerrain: false, //set true for enabling 3D maps.
     auto: false,
-    title: 'Büyükdere Plajı / Büyükdere Beach',
+    title: 'Büyükdere Plajı Atlama Kulesi / Büyükdere Beach Diving Tower',
     subtitle: '',
     byline: 'BAP_Mapping Metabolism of Istanbul_Interactive Mapping / MEF AAP_027',
-    footer: 'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
+    footer: 'BAP_Mapping Metabolism of Istanbul_Interactive Mapping / MEF AAP_027',
     chapters: [
         {
             id: '1',
@@ -30,8 +31,8 @@ var config = {
             description: '',
             location: {
                 center: [29.048957018415035,41.16311524230927],
-                zoom: 13,
-                pitch: 60,
+                zoom: 12,
+                pitch: 2,
                 bearing: 0
             },
             mapAnimation: 'flyTo',
@@ -60,8 +61,8 @@ var config = {
             description: '',
             location: {
                 center: [29.048957018415035,41.16311524230927],
-                zoom: 17,
-                pitch: 60,
+                zoom: 18,
+                pitch: 10,
                 bearing: 0
             },
             mapAnimation: 'flyTo',
@@ -89,13 +90,13 @@ var config = {
             image: 'https://i.ibb.co/q3Yy1cLF/22.png',
             description: '',
             location: {
-                center: [29.048957018415035,41.16311524230927],
-                zoom: 17,
-                pitch: 60,
+                center: [29.050428649301907,41.16321822919373],
+                zoom: 18,
+                pitch: 0,
                 bearing: 0
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [
                 // {
@@ -119,39 +120,9 @@ var config = {
             image: 'https://i.ibb.co/NdXy2M06/33.png',
             description: '',
             location: {
-                center: [29.048957018415035,41.16311524230927],
-                zoom: 18,
-                pitch: 60,
-                bearing: 0
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: true,
-            callback: '',
-            onChapterEnter: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 1,
-                //     duration: 5000
-                // }
-            ],
-            onChapterExit: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 0
-                // }
-            ]
-        },
-        {
-            id: '5',
-            alignment: 'right',
-            hidden: false,
-            title: '',
-            image: '',
-            description: '',
-            location: {
-                center: [29.048957018415035,41.16311524230927],
-                zoom: 18,
-                pitch: 60,
+                center: [29.049920966502818,41.16328444360409],
+                zoom: 19,
+                pitch: 0,
                 bearing: 0
             },
             mapAnimation: 'flyTo',
@@ -171,5 +142,6 @@ var config = {
                 // }
             ]
         },
+    
     ]
 };
